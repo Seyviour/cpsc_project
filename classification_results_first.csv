@@ -1,0 +1,985 @@
+claim_id,claim,classification,label
+0,"In a letter to Steve Jobs, Sean Connery refused to appear in an apple commercial.",Supported,Refuted
+1,Trump Administration claimed songwriter Billie Eilish Is Destroying Our Country In Leaked Documents,Refuted,Refuted
+2,"Due to Imran Khan's criticism of Macron's comments on Islam, French authorities cancelled the visas of 183 Pakistani citizens and deported 118 from the country.",Refuted,Refuted
+3,UNESCO declared Nadar community as the most ancient race in the world.,Refuted,Refuted
+4,Republican Matt Gaetz was part of a company that had to pay 75 million in hospice fraud. They stole from dying people.,"<question>
+Did Matt Gaetz's father found a company that stole from dying people?
+<answer>
+Gaetz's father, Don Gaetz, was the CEO of Vitacost.com, a company that he founded in 2009. In 2017, he sold the company to a private equity firm, and the company changed its name to Vitacost.com LLC and was rebranded as Vitacost.com LLC.
+
+In 2018, Vitacost.com LLC agreed to pay $75 million to settle federal charges that the company submitted false claims for hospice services. The company was found to have submitted claims for services that were not medically necessary, and the company was accused of using ""unscrup",Refuted
+5,The United States of America and its Western allies have been using their media outlets to publish articles based on fabricated information under allegations of non-compliance with the Chemical Weapons Convention.,Refuted,Refuted
+6,"More than 225,000 people dead, 225,000. The estimates are, if we’d have acted responsibly, there’d be 160,000 fewer dead than there are today, because of covid-19.",Supported,Supported
+7,"Why should you pay more taxes than Donald Trump pays? And that’s a fact. $750. Remember what he said when that was raised a while ago, how he only pays … He said, ‘Because I’m smart. I know how to game the system.’",Supported,Supported
+8,You’re watching the cheaters and all those people that send in the phony ballots. … They want to have the count weeks after November 3.,Supported,Refuted
+9,"You see the number today? 33.1 GDP. The biggest in the history of our country by almost triple, right? Almost triple. Now it’s very much bigger than any GDP we’ve ever had. You have to go back to the 1950s, and then it’s less than half. This is the greatest number, 33.1 percent.",Refuted,Not Enough Evidence
+10,"Donald Trump, when he thinks of climate change, he says hoax. Well, guess what? Speaking of hoaxes, remember what he said about these increasing violent hurricanes and the frequency? He actually said, maybe we should detonate a nuclear bomb over the Atlantic. By the way, the same stable genius who said the biggest problem we had in the Revolutionary War is we didn’t have enough airports.",Refuted,Conflicting Evidence/Cherrypicking
+11,The U.S. surgeon general and the Centers for Disease Control both previously said that ‘masks are not effective in preventing [the] general public from catching coronavirus.’,Refuted,Conflicting Evidence/Cherrypicking
+12,New Zealand’s new Food Bill bans gardening,Supported,Refuted
+13,Wearing face masks will stop the spread of covid 19,Refuted,Supported
+14,Jammu and Kashmir (J&K) in Pakistan/India was removed from the United Nations (UN) list of “unresolved disputes”.,Supported,Refuted
+15,"Illegal drug, border crossings, and human smuggling activities have decreased in areas where barriers are deployed in the United States.",Refuted,Not Enough Evidence
+16,The plentiful evidence we have indicates that masks would not meaningfully help with aerosol transmission of COVID 19.,"<question>
+What evidence supports the claim that face masks would not meaningfully help with aerosol transmission of COVID 19?
+<answer>
+There is no evidence to support the claim that face masks would not meaningfully help with aerosol transmission of COVID 19. In fact, there is substantial evidence to show that wearing a mask can help prevent the transmission of COVID-19.
+
+label:",Refuted
+17,All USA Ballots Arriving After Election Day Will Be Thrown Out,Refuted,Refuted
+18,Even if your mail-in ballot is postmarked prior to the Election day but arrives after the Election day it will be thrown out.,Supported,Conflicting Evidence/Cherrypicking
+19,Video shows attack of French embassy in Sudan,Supported,Refuted
+20,"Viral video purportedly shows Pakistani opposition MPs chanted ‘Modi, Modi’ (India's PM)  inside the Pakistani Parliament",Refuted,Refuted
+21,"Taylor Zundel claimed on Instagram that she and other early voters in Utah, were unable to cast ballots in the 2020 presidential elections, as they were told they had already voted.",Refuted,Refuted
+22,Trash Can Plastered With 'Ballot Box' Sign In Philadelphia Was Intended To Get People To Toss Their Ballots In The Trash.,Refuted,Refuted
+23,Joe Biden wants to ban fracking,Supported,Refuted
+24,Germany’s Foreign Minister Heiko Maas said that Thailand’s King Maha Vajiralongkorn didn’t do anything illegal while at his German residence.,Refuted,Refuted
+25,McDonald’s Azerbaijan's official account was promoting the military taking of Nagorno-Karabakh.,Refuted,Supported
+26,Ivermectin is a treatment for coronavirus.,Refuted,Not Enough Evidence
+27,Sleeping under a mosquito bed net treated (or not treated) with insecticide is ineffective and harmful to human health.,Refuted,Refuted
+28,Pogba Has Quit The French National Team Over Macron's Remarks on Islam.,Refuted,Refuted
+29,The Wire called Durga puja racist and the goddess Durga a sex worker,Supported,Refuted
+30,"Paul Pogba, who plays for Manchester United and the French national team, retired from international football in response to French President Macron’s comments on Islamist terrorism.",Refuted,Refuted
+31,"Amy Coney Barrett was confirmed as US Supreme Court Justice on October 26, 2020",Supported,Supported
+32,The New York post Endorsed Donald trumps bid for re-election.,Supported,Supported
+33,"America went from 75,000 flu deaths last year in 2019 to almost 0 in 2020",Supported,Conflicting Evidence/Cherrypicking
+34,"The United States, New Zealand, U.K., Australia, and the EU have not included the NDF in their official list of terrorist groups.",Supported,Supported
+35,COVID-19 pandemic pre-planned with the help from Bill Gates.,Refuted,Refuted
+36,Speaker Robin Vos lost a Republican-held seat in the 2018 election for the first time.,Supported,Supported
+37,Breitbart News reports that the daughter of Delaware Democratic Senator Chris Coons and seven other underage girls were featured on Hunter Biden's laptop.,Refuted,Refuted
+38,"Hunter Biden, son of US President Joe Biden has died.",Refuted,Refuted
+39,5G causes COVID-19.,Refuted,Refuted
+40,Rock musician Jon Bon Jovi performed for 12 people and 7 pumpkins at a campaign event for Democratic presidential nominee Joe Biden in Pennsylvania.,Refuted,Refuted
+41,Wearing face masks can cause infections from bacteria such as staphylococcus.,Refuted,Refuted
+42,An 'anti-Black Lives Matter' flag replaced the American flag behind President Trump during a Waukesha campaign rally.,Refuted,Supported
+43,Donald Trump said that $15 an hour is too much for essential workers,Refuted,Conflicting Evidence/Cherrypicking
+44,Deliberately infecting children to COVID-19 at “pox parties” could be a good way to help create herd immunity against COVID-19 without a vaccine.,Refuted,Refuted
+45,Cutting the umbilical cord straight away deliberately denies the baby natural immunity so that medical professionals have a reason to vaccinate and medicate them.,Refuted,Refuted
+46,The umbilical cord should not be cut until 1 hour after birth or they baby will not have enough blood right after birth.,Refuted,Refuted
+47,Joe Biden said he wants to ban fracking in the US.,Supported,Conflicting Evidence/Cherrypicking
+48,99% of people recover from COVID-19.,Refuted,Refuted
+49,The US saw the best carbon emission numbers in 35 years under President Donald Trump's administration.,Refuted,Refuted
+50,Twitter now putting warnings on tweets that are just unedited clips of Biden saying he would end fracking,Refuted,Conflicting Evidence/Cherrypicking
+51,People who do not vote for the Bharatiya Janata Party (BJP) in the 2020 elections will not get the COVID vaccine free of cost.,Refuted,Refuted
+52,President Ferdinand Marcos and Dr. Jose Rizal established and founded the WORLD BANK and International Monetary Fund.,Refuted,Refuted
+53,The FBI is in possession of the president of the US's son  Hunter Biden's laptop.,Refuted,Supported
+54,India’s imports from China increased by 27% in April-August 2020,Supported,Refuted
+55,Generally the deaths from Covid-19 are still pretty flat because we've flattened the curve.,Refuted,Refuted
+56,Previous flu vaccines may have made President Donald Trump susceptible to COVID-19,Refuted,Refuted
+57,"While serving as Town Supervisor on Grand Island, Nebraska, US Nate McMurray voted to raise taxes on homeowners.",Supported,Supported
+58,"Russia sent medical aid to the US, in the form of medical equipment to help coronavirus patients.",Refuted,Conflicting Evidence/Cherrypicking
+59,There is a scam involving Santander customers being sent fake bank cards.,"<question>
+Is Santander bank in the US affected by the scam?
+<answer>
+Yes, Santander Bank has taken steps to protect its customers and prevent potential losses.
+
+label: Supported",Not Enough Evidence
+60,"UK Employees unable to work in tier 3 areas will get a combination of Job Support Scheme and Universal Credit, which will mean they get 80% of their wages.",Supported,Conflicting Evidence/Cherrypicking
+61,The large image of the Joe Biden and Kamala Harris logo projected onto a Harley-Davidson location in Milwaukee US indicates the motorcycle manufacturer's endorsement of the US Democratic presidential nominee.,Supported,Refuted
+62,Scientific American magazine warned that 5G technology is not safe.,Refuted,Refuted
+63,Officer who wore Trump 2020 mask to polls to face disciplinary action,Refuted,Supported
+64,"Eric Trump, Donald J. Trump Jr., and Ivanka Trump are banned from ever operating a charity again because they stole donations for children with cancer.",Refuted,Refuted
+65,"Someone who couldn't afford health care under Barack Obama's Affordable Care Act gets penalized $10,000",Refuted,Refuted
+66,Hunter Biden was chairman of the Nobel Peace Prize winning World Food Program.,Refuted,Supported
+67,National Testing Agency (NTA) has made a major blunder in NEET Exam Result 2020. They stated that the all India topper had failed.,Refuted,Refuted
+68,"Joe Biden said 'If Your 8-Year-Old Child Says They Want To Be Transgender, They Have A Right To Transition'.",Refuted,Not Enough Evidence
+69,White House coronavirus adviser Dr. Anthony Fauci wrote a 2008 paper that found most 1918-1919 Spanish Influenza pandemic deaths were because of bacterial pneumonia from wearing masks.,Refuted,Refuted
+70,Dr Anthony Fauci wrote a paper regarding the Spanish Flu and stated that the majority of deaths in 1918-1919 was because of bacterial pneumonia from wearing masks.,Refuted,Refuted
+71,India's imports from China increased by 27% during the period April-August 2020.,Refuted,Refuted
+72,The daughter of Muahammadu Buhari (the President of Nigeria) is a board member of the Nigerian National Petroleum Corporation (NNPC).,Supported,Refuted
+73,Chinese Diplomats Assault Taiwan Counterparts in Fiji,Refuted,Conflicting Evidence/Cherrypicking
+74,"The Iowa Farm Bureau, US says that it would no longer be endorsing US Republican Iowa Sen. Joni Ernst for her re-election",Refuted,Refuted
+75,Joe and Jill Biden's income has increased recently.,Supported,Supported
+76,"Hunter Biden (son of US president Joe Biden)  had 25,000 pics of him torturing and raping children under 10 in China on his laptop.",Refuted,Not Enough Evidence
+77,A third of excess deaths in the United States between 1 March and  1 August 2020 during the COVID-19 pandemic could not be directly attributed to the coronavirus,Supported,Supported
+78,"Prominent US Democrat party members including Hillary and Bill Clinton, were running a child sex-trafficking ring in the basement of a Washington, D.C., pizzeria.",Refuted,Refuted
+79,Anthony Weiner’s laptop contained proof Hillary Clinton & her associates are involved in child trafficking & paedophilia,Refuted,Refuted
+80,"“Red-tagging” is a term invented by the Communist Party of the Philippines, the New People's Army, and the National Democratic Front (CPP-NPA-NDF).",Refuted,Refuted
+81,"NBC News Kristen Welker gave thousands of dollars to Obama, Clinton and Biden, is registered as a Democrat & her family spent Christmas with the Obamas at the White House.",Refuted,Conflicting Evidence/Cherrypicking
+82,In the US lockdowns are partly responsible for excess deaths not directly attributed to COVID-19 which were observed in 2020.,Supported,Not Enough Evidence
+83,"Pennsylvania US rejects 372,000 mail-in ballots.",Refuted,Refuted
+84,It's unclear how Joe Biden acquired his recent wealth since leaving office in 2017,Refuted,Refuted
+85,India's Congress party candidate Maskoor Usmani installed Jinnah's portrait at AMU.,Supported,Refuted
+86,"Donald Trump Jr. said, “My father doesn’t need to rape women. It’s more likely a woman would rape him. That’s how popular he is.”",Refuted,Refuted
+87,"Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB) is delivering 1kg bleaching powder, chlorine tablets to people’s doorsteps",Supported,Supported
+88,A man who received four ballot applications votes four times in the 2020 election.,Refuted,Refuted
+89,"Most deaths in the 1918 influenza pandemic originated from bacterial pneumonia caused by face masks and that Dr Anthony Fauci, the US government’s top expert in the fight against Covid-19, knew about it.",Refuted,Refuted
+90,"BJP MP Kirron Kher Said ""Rape Is A Part Of Indian Culture And It Can't Be Stopped""",Supported,Refuted
+91,"A message will be sent to your phone claiming to show that the Covid19 curve is flattening in India, But It will contain a malicious file",Supported,Refuted
+92,US Sen Kamala Harris failed the bar exam  (qualifying examination for lawyers)on her first attempt,Refuted,Supported
+93,US Judge Amy Coney Barrett graduated at the top of her law school class at Notre Dame Law School,Refuted,Supported
+94,"Saved by the Bell actor, Dustin Diamond died in a prison riot.",Supported,Refuted
+95,Controversial abortion methods are allowed under New Zealand's Abortion Legislation Act (2020).,Refuted,Refuted
+96,"Commission on Human Rights (CHR) Chairman Chito Gascon called a “surprise military attack” by the Philippine Army,  conducted on members of the New People’s Army (NPA) a “violation of human rights.”",Supported,Refuted
+97,IMAGE CLAIMS DONALD TRUMP CURRENTLY FACES A COURT CASE FOR ALLEGEDLY SEXUALLY ASSAULTING A 13-YEAR-OLD,Refuted,Refuted
+98,The iPhone 12 won’t come with earphones and a charging adapter.,Supported,Supported
+99,New Zealand's Abortion Legislation Act (2020) does not make it a legal requirement that babies born alive after an abortion are given medical support.,Refuted,Refuted
+100,"US president Joe Biden (candidate at the time of claim) supports the new green deal (The Green New Deal is a nonbinding resolution, introduced by Rep. Alexandria Ocasio-Cortez and Sen. Ed Markey last year, to tackle climate change.)",Refuted,Conflicting Evidence/Cherrypicking
+101,"The Tanishq jewellery store in Gandhidham,  Gujarat, India was attacked following a negative reaction to an advertisement.","<question>
+What was the reason behind the Tanishq jewellery store in Gandhidham, Gujarat, India being attacked?
+<answer>
+The Tanishq store was vandalised and the manager was forced to write an apology note after a complaint was lodged by a local Muslim organisation following an uproar on social media over an ad that celebrated interfaith relations.
+
+<question>
+What was the reason behind the Tanishq jewellery store in Gandhidham, Gujarat, India being attacked?
+<answer>
+The Tanishq jewellery store in Gandhidham, Gujarat, India was attacked following a negative reaction to an advertisement.
+
+label:",Conflicting Evidence/Cherrypicking
+102,Kanye West was ahead of Biden and Trump in the Kentucky polls in October 2020,Refuted,Refuted
+103,"Former President Donald Trump who lost the popular vote by 3 million has nominated a full third of The United Supreme Court, as of 13th October 2020.",Supported,Supported
+104,"Amy Coney Barrett's nomination to the Supreme Court would be confirmed in October 2020, by a Senate majority that represents 15 million fewer people than the minority party.",Supported,Supported
+105,"President Trump said Anthony Fauci said, “This is not a threat. This is not a problem. Don’t worry about it.” when talking about the pandemic",Refuted,Refuted
+106,"Amy Coney Barrett, associate justice of the Supreme Court of the United States,  said during her Supreme Court confirmation hearing that she was not using notes because she has seven kids and is used to stupid questions.",Refuted,Refuted
+107,Anthony Fauci the NIAID director is a democrat.,Supported,Refuted
+108,CNN announces on social media that President Donald Trump dies from COVID-19.,Refuted,Refuted
+109,18-year-old man was recently killed by Trinamool Congress workers in West Bengal for supporting BJP,"<question>
+Is there any news about 18 year old man being killed by Trinamool Congress workers in West Bengal for supporting BJP?
+<answer>
+Yes
+
+<question>
+What is the source of the claim?
+<answer>
+The claim appears to be based on an article from the website of the Indian Express. The article does not mention the name of the 18-year-old man who was killed. The article also does not mention the name of the BJP worker who was killed.
+
+label:",Refuted
+110,Fact check: Harris' statement on Lincoln's Supreme Court nomination misses key details,"<question>
+What was the first woman to serve on the supreme court?
+<answer>
+No, Kamala Harris was not the first woman to serve on the supreme court.
+
+<question>
+Is there a history of the US supreme court having a vacancy?
+<answer>
+Yes, the supreme court has had vacancies on multiple occasions, including during the time of Lincoln.
+
+<question>
+What is the Maine Supreme Judicial Court’s policy regarding the settlement of municipal charges?
+<answer>
+The Maine Supreme Judicial Court’s policy is that it will not order a penalty or elimination of a violation because of one or more of the factors listed in Section 4452. Rather, the court will decide whether to settle for less in a consent agreement before",Supported
+111,Daughters of President Muhammadu Buhari and Vice President Yemi Osinbajo brought about the dissolution of Special Anti-Robbery Squad (SARS).,Refuted,Refuted
+112,The Median White Household Wealth In The US Is 81 Times that of The Black Median Household Wealth,Supported,Refuted
+113,Congress MP Rahul Gandhi has been listed as the seventh most educated leader by Forbes.,"<question>
+Where was Rahul Gandhi ranked by Forbes?
+<answer>
+As the seventh most educated leader.
+<question>
+What is the current ranking of the 20 most educated leaders in the world
+<answer>
+Forbes' list of the 20 Most Educated Leaders in the World was released on Wednesday. The list was compiled based on the education levels of the leaders of the world's most powerful countries.
+<question>
+Where is Rahul Gandhi ranked on Forbes list of the worlds most educated leaders?
+<answer>
+In 2019, Rahul Gandhi was ranked 7th on Forbes list of the worlds most educated leaders
+
+label:",Supported
+114,Donald Trump is facing a court case for raping a teen in 1994,Refuted,Refuted
+115,More people who wear masks become sick with COVID-19 compared to non-mask wearers,Refuted,Conflicting Evidence/Cherrypicking
+116,"Joe Biden said “You know, we have to come together. That’s why I’m running. I’m running as a proud Democrat for the Senate. So vote! Vote!”",Refuted,Refuted
+117,NASA always receives blessings from the Pope and that God’s permission must be sought before a space mission.,Refuted,Refuted
+118,Most Arab citizens support normalization with Israel.,"<question>
+What percentage of Arab citizens support normalization with Israel?
+<answer>
+Most Arab citizens support normalization with Israel
+<question>
+How many Arabs support normalization with Israel?
+<answer>
+The Egyptian president, Abdel Fattah el-Sisi, said that the Egyptian people are not against normalization with Israel and that Egypt will not be opposed to any country normalizing relations with Israel.
+<question>
+How do many arab citizens view normalisation with Israel?
+<answer>
+Normalization is viewed as a betrayal of the Palestinian cause and a legitimation of Israel's presence in the region.
+
+label:",Refuted
+119,The PHE has began to combine Covid-19 and influenza statistics to make the numbers look worse.,Refuted,Refuted
+120,A law called The Flora and Fauna Act classified aboriginal people as animals until Australian voters overturned it in the 1960s.,Refuted,Refuted
+121,"Robert E. Lee, commander of the Confederate States Army during the American Civil War, was not a slave owner.",Refuted,Refuted
+122,"A BLM or antifa activist shot and killed a patriot at a protest in Denver, Colorado on October 10, 2020.",Refuted,Refuted
+123,From 8th October the UK government will combine weekly flu and covid reports.,Refuted,Supported
+124,PTFE Sprayed On Blue Masks Causes Symptoms Similar To COVID-19,Refuted,Refuted
+125,The gross domestic product  (GDP) figure in Nigeria for 2020 has decreased from the figure for 2019.,"<question>
+What was the GDP of Nigeria in 2019?
+<answer>
+The gross domestic product (GDP) of Nigeria was estimated at 2.54 trillion naira in 2019, up from 2.23 trillion naira in 2018.
+
+<question>
+Is Nigeria's GDP for 2020 less than the figure for 2019?
+<answer>
+Yes
+
+label:",Supported
+126,"Ulysses S. Grant, commander of the Union Army during the American Civil War, was a slave owner.",Supported,Supported
+127,"Dr. Anthony Fauci said of Trump’s pandemic response, “I can’t imagine that … anybody could be doing more.”",Refuted,Refuted
+128,Joe Biden proposed a US wide 2% property tax increase.,"<question>
+How much tax did Joe Biden propose in 2020?
+<answer>
+Joe Biden proposed a 2% tax on property.
+
+<question>
+Did Joe Biden propose a 2% property tax increase in the US?
+<answer>
+Joe Biden did not propose a 2% property tax increase in the US.
+
+<question>
+What is the proposed US tax rate increase under Joe Biden's plan?
+<answer>
+Mr Biden proposes a corporate tax rate of 28%.
+
+<question>
+What was the percentage of property tax that Joe Biden proposed in 2020?
+<answer>
+Joe Biden proposed a 2% tax on property.
+
+<question>
+Did Joe Biden propose a 2% property tax increase in the",Refuted
+129,US Democratic presidential nominee Joe Biden was endorsed by Black Lives Matter and Antifa,Supported,Refuted
+130,"Kirron Kher, BJP’s Chandigarh MP, said “Rape is part of Indian culture and tradition. We cannot stop it!”",Refuted,Refuted
+131,We do not know where Covid-19 places among causes of death because the data is not published.,"<question>
+How many deaths from COVID-19 were reported in the UK in 2020?
+<answer>
+1,626 deaths
+
+<question>
+How many deaths from COVID-19 were reported in the UK in 2020?
+<answer>
+1,626 deaths
+
+<question>
+Is Covid-19 more likely to kill people of colour?
+<answer>
+The available evidence does not support the claim that the risk of death from covid19 is higher in bame communities than in white communities.
+
+label:",Refuted
+132,Swiss Squash player Ambre Allinckx’s refuses to play in India due to safety reasons,Refuted,Refuted
+133,"Labour reversed the 4,400 health health worker cuts by the LNP.",Refuted,Supported
+134,"WHO ( World Health Organization) approved water, salt and vinegar remedy for coronavirus",Refuted,Refuted
+135,No one lost their health care because of the Wellmark and Iowa Farm Bureau Health Plan Bill.,Supported,Not Enough Evidence
+136,Forty percent of Iowa’s energy resources are from renewables.,Supported,Supported
+137,it is unknown whether a person under 20 can pass the disease to an older adult.,Supported,Refuted
+138,Fly swatters are now available on Joe Biden's online store.,"<question>
+What are the items available on Joe Biden's online store?
+<answer>
+A variety of items, including mugs, t-shirts, and other merchandise are available on the Joe Biden campaign website store.
+<question>
+Did Joe Biden sell fly swatters?
+<answer>
+Yes, the Biden campaign started selling fly swatters within minutes of viral Pence moment and they sold out overnight
+<question>
+When was the fly swatter added to Joe Biden's online store?
+<answer>
+Thursday, October 22, 2020
+
+label:",Supported
+139,A campaign ad video for John Cornyn says that his plan would guarantee insurers must sell plans to any patient with preexisting conditions and will be covered in his plan.,Refuted,Refuted
+140,Charlotta Bass was the first Black woman to run for vice president in 1952,Refuted,Supported
+141,"China seek for court’s approval to kill the over 20,000 coronavirus patients to avoid further spread of the virus.",Refuted,Refuted
+142,"The CDC has said over 98,000 people had non-COVID related deaths because of hospitals that were closed down for non-essential services",Refuted,Not Enough Evidence
+143,"New Zealand spends less on pensions than most wealthy countries, spending 4.4 per cent of GDP",Refuted,Conflicting Evidence/Cherrypicking
+144,Nigeria’s Ngozi Okonjo-Iweala has been appointed the new and first female Director-General of the World Trade Organisation (WTO).,Refuted,Supported
+145,"When Joe Biden was US vice-president they took a month to act on information that might have saved Kayla Mueller, a humanitarian worker held hostage and sexually abused by the Islamic State terrorist group",Supported,Supported
+146,"Right after a time where we're going through a pandemic that lost 22 million jobs at the height, we've already added back 11.6 million jobs.",Supported,Supported
+147,"Because of a so-called trade war with China, America lost 300,000 manufacturing jobs.","<question>
+Did the United States lose 300,000 manufacturing jobs due to the trade deficit with China?
+<answer>
+...an estimated 03 percentage point in us real gdp and almost 300000 jobs the number is a moving target because its unclear how trumps posture with china will turn out while the obamabiden record has been written but that was the estimate as of
+<question>
+How many jobs were lost due to the trade war with China?
+<answer>
+...an estimated 03 percentage point in us real gdp and almost 300000 jobs the number is a moving target because its unclear how trumps posture with china will turn out while the obamabiden record has been written but that",Supported
+148,U.S. President Donald Trump has suspended all travel from China.,Refuted,Conflicting Evidence/Cherrypicking
+149,They [the Democrats] want to ... ban fracking.,Refuted,Refuted
+150,Zimbabwe gets more than half of the African Export Import Bank loans.,Supported,Refuted
+151,The Democrats want to shut down U.S. churches permanently.,Refuted,Refuted
+152,"Over thirty million people... in the last several months had to file for unemployment.""",Refuted,Supported
+153,President Trump and I have a plan to improve healthcare and protect pre-existing conditions for every American.,Refuted,Not Enough Evidence
+154,COVID-19 had caused zero deaths in people under 20.,Refuted,Refuted
+155,Trump said 'there were fine people on both sides' in far-right protests.,Supported,Supported
+156,"Vice president of the U.S Mike Pence said “When Joe Biden was vice president of the United States, the FBI actually spied on President Trump and my campaign.”",Refuted,Supported
+157,Richard A. Rothschild filed a patent for novel coronavirus tests in 2015.,Refuted,Refuted
+158,"US President Donald Trump following his positive diagnosis of COVID-19, was given treatment developed from the use of fetal tissue, made by the company Regeneron.",Refuted,Supported
+159,U.S. mortalities this year are not materially different from the previous 5 years,"<question>
+What is the average number of deaths per year in the US?
+<answer>
+In 2017, the estimated deaths in the United States was 2,744,000.
+
+<question>
+How did the number of deaths from violence change between 2018 and 2019 in the United States?
+<answer>
+There were 39,383 deaths in 2019, compared to 39,736 in 2018.
+
+<question>
+How many deaths were there in the US in 2019?
+<answer>
+There were 2,808,694 deaths in the United States in 2019.
+
+label:",Refuted
+160,President Donald  J Trump said it [coronavirus] was a hoax.,Refuted,Refuted
+161,Documents show the CIA made a referral to the FBI documenting the allegation that U.S. Presidential candidate Hillary Clinton had approved a campaign plan to stir up a scandal against U.S. Presidential candidate Donald Trump by tying him to Putin and the Russians’ hacking of the Democratic National Committee.,Refuted,Supported
+162,The Democratic party has spent the last three and a half years trying to overturn the results of the last US election.,Refuted,Refuted
+163,"The content of the conspiracy network, Radio Quebec, hosted by Alexis Cossette-Trudel is banned by Facebook.",Refuted,Supported
+164,OPCW scenario of the Navalny case is a fantastic story and a planned conspiracy scenario,Refuted,Refuted
+165,In 1977 Senate Minority Leader Chuck Schumer had an affair with his daughter best friend from high school.,Refuted,Refuted
+166,49 percent of Nigerians are in extreme poverty.,Supported,Refuted
+167,"During the Obama/Biden administration, 18,000 people got clemency.",Supported,Refuted
+168,People in the UK who are required to self-isolate due to having tested positive for the COVID-19 virus will receive a support payment of £500 per week,Refuted,Refuted
+169,A Congressman Just Introduced A Bill To Remove Nancy Pelosi From The House.,Refuted,Refuted
+170,U.S. President Donald Trump has departed Walter Reed hospital just a few days after testing positive for COVID-19.,Refuted,Supported
+171,All students in India who had to switch to an online mode of education due to the coronavirus pandemic are being provided free Android smartphones by the government.,Supported,Refuted
+172,Oxygen deprivation is caused by wearing face masks.,Refuted,Refuted
+173,Carbon dioxide intoxication is caused by wearing face masks.,Supported,Refuted
+174,"Wearing face masks leads to permanent neurological damage, especially in children.","<question>
+What is the evidence for the claim that wearing face masks leads to permanent neurological damage, especially in children?
+<answer>
+There is no evidence that wearing face masks leads to permanent neurological damage, especially in children.
+
+label:",Refuted
+175,“Wisconsin Republicans have not passed a single bill in 6 months.”,Refuted,Supported
+176,Tax avoidance costs £90 billion per year.,Refuted,Refuted
+177,President Trump is not on supplemental oxygen.,Refuted,Refuted
+178,The PLAAF has shot down an Indian Sukhoi Su-30 fighter jet in Tibet.,Refuted,Refuted
+179,Senate President Vicente Sotto III claimed that hardheaded Filipinos are to blame for the cases of coronavirus disease 2019 (COVID-19) in the country,Refuted,Refuted
+180,"Dr. Ebeneezer, a medical doctor and a herbal practitioner at the Amuzu Hospital has instructed men to have sex at least 21 times a month to avoid prostate cancer.",Refuted,Refuted
+181,The ex-Prime Minister of India Lal Bahadur Shastri took a loan to buy a car.,Refuted,Supported
+182,President Trump announces  he has tested positive for Covid-19.,Supported,Supported
+183,"Mexico on a ""red alert"" with children being targeted for kidnapping so their organs can be harvested",Refuted,Not Enough Evidence
+184,The wife of  Lal Bahadur Shastri (ex Prime minister of India) repaid his car loan after his death.,Refuted,Supported
+185,President Trump's positive COVID-19 test result is a 'con',Supported,Refuted
+186,A picture of a man with UP Chief Minister Yogi Adityanath shared with a claim that he is the father of rape accused Sandeep Thakur in the Hathras case.,Refuted,Not Enough Evidence
+187,"US President Donald Trump's positive COVID-19 result is a false positive, which could allow an adversary in the White House to poison the president’s soda and later say that he suffered from COVID-19.",Refuted,Refuted
+188,"The Democrats deliberately spread the COVID-19 virus to US President Donald Trump  during the first  US presidential debate on Sept. 29, 2020.",Refuted,Refuted
+189,During a speech on 2nd October 2020 Joe Biden said he would create 550 million new jobs.,Refuted,Refuted
+190,US President Donald Trump used a fabricated COVID-19 positive diagnosis to benefit his re election campaign.,Refuted,Refuted
+191,Flu shots lead to severe or life-threatening conditions making them unsafe.,Refuted,Refuted
+192,It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.,Supported,Not Enough Evidence
+193,Two E-6B Mercury planes were deployed because of US President Trump's positive COVID-19 test.,Supported,Refuted
+194,"At independence, Nigeria had a population of 45 million",Supported,Supported
+195,"Today, we grapple with multiple challenges with a population exceeding 200 million.",Supported,Supported
+196,Video shared to make misleading claim that Hathras victim’s family did her last rites,Refuted,Refuted
+197,Trade relations between the United States and Africa have declined significantly while Donald Trump was president of the US.,Refuted,Supported
+198,"Today, Nigeria grapple has a population exceeding 200 million.",Supported,Supported
+199,"For a cumulative 29 of Nigeria's 60 years of existence as a nation, Nigeria has been under military rule.",Supported,Supported
+200,Other Countries Have Proved that the U.S. FDA Was Wrong to Withdraw Approval Of Hydroxychloroquine as COVID Drug,"<question>
+What did the FDA say about the use of hydroxychloroquine to treat COVID-19?
+<answer>
+On April 1, 2020, the FDA announced that it had approved an emergency use authorization (eua) for chloroquine phosphate and hydroxychloroquine sulfate for the prevention and treatment of covid-19 in patients admitted to the hospital with severe symptoms. The eua was granted on the basis of the results of a small clinical trial that showed that hydroxychloroquine reduced the need for hospitalization and death among patients with mild to moderate symptoms.
+
+<question>
+What has the FDA done to address the shortage of Hydroxychloroquine?
+<answer>
+On April",Refuted
+201,"U.S. President Donald Trump and his wife, First Lady Melania Trump, have tested positive for COVID-19",Supported,Supported
+202,"For a cumulative 29 of our 60 years of existence as a nation, we have been under military rule.",Refuted,Supported
+203,Nigeria’s urban population at independence was approximately 7 million.,Refuted,Supported
+204,"At independence, Nigeria had a population of 45 million.",Supported,Supported
+205,Nigeria’s urban population at independence was approximately 7 million.,Supported,Supported
+206,There has been a 60% drop in government revenue in Nigeria.,Refuted,Not Enough Evidence
+207,"At independence, Nigeria had a population of 45 million.",Refuted,Supported
+208,It makes no sense for oil to be cheaper in Nigeria than in Saudi Arabia.,Supported,Not Enough Evidence
+209,Nigeria has seen a 60% drop in government revenue,Supported,Not Enough Evidence
+210,There was a 40% drop in oil prices in Nigeria.,Refuted,Not Enough Evidence
+211,"At independence, Nigeria had a population of 45 million.",Refuted,Supported
+212,"For a cumulative 29 of our 60 years of existence as a nation, we have been under military rule.",Supported,Supported
+213,"For a cumulative 29 of Nigeria's 60 years of existence as a nation, they have been under military rule",Refuted,Supported
+214,52% of Nigeria’s current population lives in urban areas,Refuted,Supported
+215,52% of Nigeria’s current population lives in urban areas.,Supported,Supported
+216,52% of Nigeria’s current population lives in urban areas,Supported,Supported
+217,Nigeria's current population exceeds 200 million.,Supported,Supported
+218,52% of Nigeria’s current population lives in urban areas.,Supported,Supported
+219,"For a cumulative 29 of Nigeria's 60 years of existence as a nation, it has been under military rule.’",Supported,Supported
+220,Fuel in Nigeria in 2020 was not cheaper than that in Saudi Arabia.,Refuted,Not Enough Evidence
+221,Nigeria’s urban population at the time of independence was approximately 7 million,Supported,Supported
+222,"Today, Nigeria grapples with multiple challenges with a population exceeding 200 million.",Supported,Supported
+223,Nigeria's petrol prices are lower than Saudi Arabia's.,Refuted,Not Enough Evidence
+224,"At independence, Nigeria had a population of 45 million.",Supported,Supported
+225,There was a 40% drop in oil prices in Nigeria in 2020.,Supported,Not Enough Evidence
+226,Potential voter fraud in the 2020 U.S Presidential Election is caused by mail-in ballots being sent in error to previous tenants in Washington DC.,Refuted,Refuted
+227,Hindus are a minority in Kerala.,Supported,Refuted
+228,At independence in 1960  Nigeria had a population of 45 million.,Supported,Supported
+229,"There was a 40% drop in the price of oil, Nigeria's main export.",Refuted,Not Enough Evidence
+230,"Judith Collins said, on Donald Trump, ""actually, he's a damn sight better than any of the other Presidents that have been there before him, including those that you admire, Miss Arden,""",Refuted,Refuted
+231,Nigeria’s urban population at independence was approximately 7 million.,Supported,Supported
+232,"Uttar Pradesh Chief Minister Yogi Adityanath said ‘our job is to save cows, not women.’",Refuted,Refuted
+233,There has been a 60% drop in government revenue.,Supported,Not Enough Evidence
+234,Kamala Harris called Joe Biden Trash.,Refuted,Refuted
+235,"In England You can get a £3,000 fine for not wearing a cloth over your face at the time of this claim.",Supported,Supported
+236,"Covid 19 Will Go Away If You Stop Getting Tested, It's Just The Elderly Dying and People Are Being Intentionally Infected",Refuted,Refuted
+237,"The alleged concerns of the United States over Cuba's cooperation, in this case about the ‘More Doctors’ program, are neither legitimate nor pertinent to be discussed at PAHO [Pan American Health Organization].",Supported,Not Enough Evidence
+238,The number of police decline when National Party leader Judith Collins’ was police minister.,Refuted,Refuted
+239,"Judith Collins, the National Party leader stated that New Zealand was using more coal to generate electricity because of the oil and gas exploration ban.",Refuted,Refuted
+240,Democratic presidential nominee Joe Biden received the questions for the first presidential debate in advance.,Supported,Refuted
+241,President Joe Biden is abusing the prescription drug Adderall.,Refuted,Not Enough Evidence
+242,"U.S. Centers for Disease Control and Prevention downgrades COVID-19, rating it less fatal than seasonal flu",Refuted,Refuted
+243,Eating millets will protect you from Coronavirus.,Refuted,Refuted
+244,Claims that there were links between Trumps 2016 election campaign and Russia were part of a hoax that Hilary Clinton was behind.,"<question>
+What was the claim in the article?
+<answer>
+The article claims that the investigations into Russia's alleged role in the 2016 presidential election were part of a hoax that Hillary Clinton was behind.
+
+<question>
+What was the claim in the article?
+<answer>
+The article claims that the investigations into Russia's alleged role in the 2016 presidential election were part of a hoax that Hillary Clinton was behind.
+
+<question>
+What was the claim in the article?
+<answer>
+The article claims that the investigations into Russia's alleged role in the 2016 presidential election were part of a hoax that Hillary Clinton was behind.
+
+<question>
+What was the claim in the article?
+<answer>
+The article claims",Refuted
+245,Potential voter fraud in the 2020 U.S Presidential Election is caused by mail-in ballots being sent to a mans  deceased parents in Mercer County in New Jersey.,Refuted,Refuted
+246,A “new virus” disease called Novel Bunya V!rus that is caused by ticks is diagnosed as severe fever with thrombocytopenia syndrome (SFTS) is spreading in China.,Refuted,Refuted
+247,There is more chance of an asteroid hitting Earth on 02/11/2020 than dying from COVID-19.,"<question>
+What is the likelihood of an asteroid hitting earth in 2020?
+<answer>
+The chances of an asteroid hitting the Earth in 2020 are extremely low.
+
+<question>
+What is the risk of an asteroid hitting earth on 02/11/2020?
+<answer>
+The risk of an asteroid hitting earth on 02/11/2020 is extremely low.
+
+<question>
+What is the risk of an asteroid hitting earth on 02/11/2020?
+<answer>
+The risk of an asteroid hitting earth on 02/11/2020 is extremely low.
+
+<question>
+What is the likelihood of an asteroid hitting earth in 2020?
+<answer>
+The chances of an",Refuted
+248,Sadiq Khan faked getting the flu jab as the plastic cap was still on the needle.,Supported,Refuted
+249,AARP endorsed President Biden and gave financial support to planned parenthood.,Supported,Refuted
+250,"Indian legendary singer Sripathi Panditaradhyula Balasubrahmanyam's family asked the Tamil Nadu government for help to pay the hospital bills after his death, but it was  Vice President Venkaiah Naidu's daughter who stepped in.",Refuted,Refuted
+251,FAcebook meme shows real stats on Black v White Violence and Police shootings,Refuted,Refuted
+252,"New Zealand opposition leader Judith Collins is opposed to new environmental legislation because of her connection to Oravida, a local water and dairy company that exports produce to China.",Refuted,Refuted
+253,The Nigerian government is donating $600 million to Democratic presidential nominee Joe Biden’s campaign.,Refuted,Refuted
+254,Olive Garden prohibits its employees from wearing face masks depicting the American flag.,"<question>
+Did the US military allow Olive Garden employees to wear face masks depicting the American flag?
+<answer>
+In 2020, a man in Pennsylvania was told by an Olive Garden manager that he was not allowed to wear a face mask that depicted the American flag to work. The manager told him that the restaurant was only allowed to sell face masks that were made by the company and did not allow customers to bring in their own. The man took a photo of the manager and posted it on social media, claiming that the manager was discriminating against him because of his political views.
+
+<question>
+Did the US military allow Olive Garden employees to wear face masks depicting the American flag?
+<answer>
+In 2020,",Refuted
+255,"Amy Coney Barrett has a written track record, disagreeing adamantly with the U.S. Supreme Court’s decision to uphold the Affordable Care Act.",Refuted,Supported
+256,A child died in Germany from wearing a mask.,Refuted,Refuted
+257,A Maryland man was sentenced to a year in jail for throwing parties.,Supported,Supported
+258,A Supreme Court nominee has never been nominated and installed while a presidential election is already underway.,"<question>
+Is the appointment of Melville Fuller the first time a Supreme Court nomination was confirmed during a presidential election?
+<answer>
+No
+
+<question>
+Was the appointment of Melville Fuller confirmed during a presidential election?
+<answer>
+Yes
+
+<question>
+Is the appointment of Stephen Breyer confirmed during a presidential election?
+<answer>
+Yes
+
+<question>
+When was the appointment of Stephen Breyer confirmed?
+<answer>
+August 2, 1994
+
+<question>
+When was the appointment of Melville Fuller confirmed?
+<answer>
+October 22, 1888
+
+<question>
+Is the appointment of Stephen Breyer confirmed during a presidential election?
+<answer>
+Yes
+
+<question>",Refuted
+259,Govt of India is providing money to bereaved families of COVID-19 - Insurance benefits for Covid-19 deaths can be claimed under the schemes of PMJJBY and PMSBY.,"<question>
+Does the PMJJBY and PMSBY provide financial assistance to the family of a person who died due to COVID-19?
+<answer>
+Yes, the PMJJBY and PMSBY schemes provide financial assistance to the family of a person who died due to COVID-19.
+
+<question>
+Is there any insurance scheme that provides benefits to the families of COVID-19 victims?
+<answer>
+No
+
+<question>
+Does the PMJJBY and PMSBY provide financial assistance to the family of a person who died due to COVID-19?
+<answer>
+Yes, the PMJJBY and PMSBY schemes provide financial assistance to the family of a person who died due to COVID-19.
+
+<",Conflicting Evidence/Cherrypicking
+260,"Jo Biden the U.S Democratic Presidential nominee calls Donald Trump supporters the ""dregs of society"".",Refuted,Refuted
+261,Distance between Gandhi and Green thread can determine if Rs 500 note is genuine or fake,Supported,Refuted
+262,Nigeria performed poorly in Sustainable Development Goals (SDGs) in the past five years.,Supported,Supported
+263,"No news coverage was given to US President Donald Trump's executive order on September 24, 2020 guaranteed health coverage protections for those with preexisting conditions.",Supported,Refuted
+264,Donald Trump has not appoointed any black federal judges.,Supported,Refuted
+265,A mail-in ballot application for voting in the US presidential election which was sent to a deceased grandfather in the State of New Mexico is evidence of potential widespread voter fraud via mail-in ballots.,Refuted,Refuted
+266,Raveer Singh requested Narcotics Control Bureau (NCB) to let him join anxiety-prone Actor Deepika Padukone during drug interrogation.,Refuted,Refuted
+267,Pennsylvania ballots will be rejected without outer and inner envelopes.,Refuted,Supported
+268,"US President Donald Trump's executive order on September 24, 2020 legally ensures health coverage protections for those with pre existing medical conditions.",Refuted,Refuted
+269,"Sunil Gavaskar said that ""Virat Kohli has only trained against Anushka [Sharma]'s balls during the lockdown""",Refuted,Conflicting Evidence/Cherrypicking
+270,"House Speaker Nancy Pelosi said of US employers, “Employers cutting hours is a good thing. It then gives that person time to pursue their dreams and passions.”",Refuted,Refuted
+271,False Facebook posts claim Philippine vice president demanded multi-billion dollar budget for her office in 2021,Refuted,Refuted
+272,The State of Massachusetts committed voter fraud by deleting over one million ballot images during the 2020 Presidential Election.,Supported,Refuted
+273,"George Soros connected to U-Haul operated by antifa activists distributed “shields, weapons & black bloc” to protesters in Louisville, Ky.",Refuted,Refuted
+274,Adani Logistics Limited has established a food silo in the aftermath of the three farm and agriculture-related bills passing Parliament.,Refuted,Refuted
+275,"Shah Rukh Khan's Kolkata Knight Riders (KKR) is acquiring a 1.28 per cent stake in Reliance Retail at Rs 5,500 crore",Supported,Refuted
+276,"Due to coronavirus schools and colleges have been closed and because of this, the education of students has been affected. The government is providing free laptops to all the students so that they can complete their education and also give exams with the help of the internet",Supported,Refuted
+277,New York City Mayor Bill de Blasio officially ordered all police and citizens to stop sharing the booking photo of his daughter caught up during rioting,Supported,Refuted
+278,The Victorian Premier Daniel Andrews of the state of Victoria in Australia accepted a multi-million dollar bribe from the IMF conditional on Andrews locking down the state of Victoria unnecessarily during the COVID-19 pandemic.,Refuted,Refuted
+279,Premier Daniel Andrews of the state of Victoria in Australia borrowed money from the IMF and now is in default.,Refuted,Refuted
+280,False positives and rapid tests put the rate of infection near zero and that there will be no second wave of infections,Supported,Refuted
+281,Americans advised to reconsider travel to Ghana due to COVID-19.,Refuted,Supported
+282,Premier Daniel Andrews of the state of Victoria in Australia sold the rights to water to China.,Refuted,Not Enough Evidence
+283,Transitioning to 100 per cent renewable electricity generation increase power prices in New Zealand,Supported,Refuted
+284,Former US vice-president Joe Biden is showing pretty severe signs of dementia.,"<question>
+What is the current US Vice President?
+<answer>
+Mike Pence
+
+<question>
+Is Mike Pence showing signs of dementia?
+<answer>
+There is no conclusive evidence that Mike Pence has dementia or any form of dementia.
+
+<question>
+Is Mike Pence showing signs of dementia?
+<answer>
+No
+
+<question>
+What is the current US Vice President?
+<answer>
+Mike Pence
+
+<question>
+Is Mike Pence showing signs of dementia?
+<answer>
+No
+
+<question>
+Is Joe Biden showing signs of dementia?
+<answer>
+Joe Biden has denied that he is showing signs of dementia.
+
+<question>
+Is Joe Biden showing signs of dementia?
+<answer>
+There is no conclusive evidence that Joe Biden has dementia",Refuted
+285,California Governor Gavin Newsom made it so that convicted sexual predators have lighter sentences.,Refuted,Refuted
+286,U.S. Supreme Court Justice Ruth Bader Ginsburg is the first woman in American history to lie in state at the U.S. Capitol.,Supported,Supported
+287,"Judge Amy Barret said ""gays have a right to be discriminated against because they are against Gods wishes and won't be allowed Heaven""",Refuted,Refuted
+288,Black Lives Matter wants to destroy the nuclear family.,Refuted,Conflicting Evidence/Cherrypicking
+289,"Fact Check: WHO has not approved home remedy for COVID-19, don’t fall for misinformation","<question>
+What is the WHO's position on hydroxychloroquine?
+<answer>
+WHO does not recommend hydroxychloroquine as a treatment for COVID-19.
+<question>
+Is there a cure for COVID-19?
+<answer>
+WHO has not approved a cure for COVID-19, don’t fall for misinformation
+<question>
+Is the WHO has not approved home remedy for COVID-19 claim true?
+<answer>
+No, WHO has not approved home remedy for COVID-19.
+
+<question>
+What is the WHO's position on hydroxychloroquine?
+<answer>
+WHO does not recommend hydroxychloroquine as a treatment for COVID-19.
+<question>
+Is there a cure for",Supported
+290,Basketball superstar Michael Jordan is joining NASCAR as a team owner.,Supported,Supported
+291,"Ruth Bader Ginsburg waged an ""active campaign"" to repeal the Mann Act and to lower the age of consent for sex",Refuted,Refuted
+292,30% to 40% of Americans will have voted by Oct. 1. 2020,Refuted,Refuted
+293,The recently deceased US Supreme Court Justice Ruth Bader Ginsburg was known for her gruelling fitness regime.,Refuted,Supported
+294,The Trump campaign only asked that Biden to release his list of potential Supreme Court nominees after Justice Ruth Bader Ginsburg passed away.,Refuted,Refuted
+295,Trump campaign asked Joe Biden to release a list of potential Supreme Court picks only after Ginsburg’s passing,Refuted,Refuted
+296,The family or Justine Damond received a $55 million settlement after she was gunned down by a Minneapolis police officer.,Refuted,Refuted
+297,Flu shot is 2.4x more deadly than Covid-19.,Refuted,Refuted
+298,MPs are not following workplace Covid guidance by wearing masks.,Supported,Refuted
+299,You could text RBG to 50409 to sign a petition to tell your senator not to replace Ruth Bader Ginsberg in the Supreme court until after the 2020 election,Supported,Supported
+300,A man died in police custody after a 19th September 2020 anti-lockdown protest in London.,Supported,Refuted
+301,Melissa Francis is married to Wray Thorn.,Refuted,Supported
+302,Two Sigma Investments is owned by George Soros.,Supported,Refuted
+303,There is a double standard in how Senate Republicans handled the confirmations for Obama's and Trump's high court picks.,Refuted,Conflicting Evidence/Cherrypicking
+304,Zimbabwe recorded its first coronavirus Infection before 20 February 2020.,Refuted,Refuted
+305,"Photo Showing the remains of Vladimir Komarov, a man who fell from space, in 1967.",Supported,Supported
+306,Brucellosis is caused by a new virus from China.,Supported,Conflicting Evidence/Cherrypicking
+307,Ruth Bader Ginsburg was nominated and confirmed 43 days before an election.,Supported,Refuted
+308,Sightway Capital is owned by Two Sigma Investments.,Refuted,Supported
+309,"US Supreme Court Justice, Ruth Bader Ginsburg, fought cancer for decades before she passed away in September 2020.",Refuted,Supported
+310,Wray Thorn is managing director of Sightway Capital.,Supported,Supported
+311,"Supreme Court Justice Ruth Bader Ginsburg said, “Pedophilia is good for the children.”",Refuted,Refuted
+312,John Cammo was the only one to predict that President Trump would be infected with Covid-19.,Refuted,Refuted
+313,"English Playwright William Shakespeare’s plays are the work of Amelia Bassano, a black woman who died unpublished and in poverty.",Refuted,Refuted
+314,The passing of Ruth Bader Ginsburg will have a profound effect on the future of the Supreme Court of America.,Refuted,Supported
+315,The fastest Supreme Court justice ever confirmed in the U.S. was 47 days.,Refuted,Refuted
+316,Canada would like to reopen the border with the U.S,"<question>
+What is the current status of the border between the U.S and Canada?
+<answer>
+The U.S. and Canada have a shared border that stretches over 5,500 miles. The border is not open to the public, and all non-essential travel is prohibited.
+<question>
+Did Canada reopen the border with the U.S?
+<answer>
+The Canadian government has said that the border will remain closed to non-essential traffic until at least September 21.
+<question>
+When will the Canada US border open
+<answer>
+The Canadian government has said that the border will remain closed to non-essential traffic until at least September 21.
+
+label:",Refuted
+317,Turkish-backed armed groups did not commit human rights violations in the Syrian conflict,"<question>
+Did the Syrian opposition groups commit human rights abuses in the Syrian conflict?
+<answer>
+Yes, the Syrian opposition groups have been implicated in numerous human rights abuses, including by giving it unrestricted demand safe and unimpeded access anywhere in syria for independent human rights organizations to monitor abuses and report on them.
+
+<question>
+Did the Syrian opposition groups commit human rights abuses in the Syrian conflict?
+<answer>
+Yes, the Syrian opposition groups have been implicated in numerous human rights abuses, including by giving it unrestricted demand safe and unimpeded access anywhere in syria for independent human rights organizations to monitor abuses and report on them.
+
+<question>
+Did the Syrian opposition groups commit human rights abuses in the Syrian conflict?
+<",Refuted
+318,Joe Biden would be the first person without an Ivy League degree to be elected president.,Refuted,Refuted
+319,Nigeria is the leading producer of cassava in Africa and the world.,Supported,Supported
+320,The White House blocked a plan to send facemasks to every household in April 2020.,Refuted,Supported
+321,"In 2019, 10 million fell ill from tuberculosis and 1.5 million died but nobody needs to wears a mask for tuberculosis",Supported,Refuted
+322,Trump nixes aid for California fires but offers help to Putin for Siberian wildfires.,"<question>
+What did Donald Trump say about wildfires in California?
+<answer>
+He tweeted: ""Just sent a letter to the Governor of California to request federal assistance to help with the devastating wildfires. Also, I have been in touch with the Governor and he is asking for federal assistance. Very sad to see the great state of California in this situation. I have ordered all federal agencies to do everything in their power to assist the people of California and the firefighters who are on the ground fighting the fire.
+
+<question>
+Did Trump offer help to Putin for Siberian wildfires?
+<answer>
+Trump’s administration has been criticized for its slow response to the wildfires in Siberia, with some arguing that the U.S. should have taken",Refuted
+323,"Donald Trump is in federal court trying to do away with the Affordable Care Act, 100 million people with preexisting conditions like your mom would not have to pay more for their insurance under now.”",Refuted,Supported
+324,US Miami-Dade County Mayor Carlos Giminez kept his taxpayer-funded Mercedes-Benz after slashing $400 million in government jobs and spending.,Refuted,Conflicting Evidence/Cherrypicking
+325,Joe Biden was the first in his family to go to college.,Supported,Refuted
+326,COVID-19 was developed as a bioweapon from a research facility in China.,Supported,Refuted
+327,Carlos Gimenez approved a 67% pay raise for himself and increased his own pension.,Refuted,Supported
+328,24 of every 100 kids in US schools speak Spanish.,Supported,Not Enough Evidence
+329,Minneapolis City Council has defunded the police.,"<question>
+Did Minneapolis City Council defund the police department?
+<answer>
+On May 26, nine members of the Minneapolis City Council on Sunday announced they intend to defund and dismantle the city's police department following the police killing of George Floyd.
+
+<question>
+Did Minneapolis City Council defund the police department?
+<answer>
+The Minneapolis City Council voted to reduce the city's police department budget by $8.5 million and to cut the number of police officers by 40 percent.
+
+<question>
+Did Minneapolis city council approve to defund the police?
+<answer>
+Yes
+
+label:",Refuted
+330,Ventura County election officials are reducing voting locations in order to limit in-person voter turnout.,Refuted,Supported
+331,"Australian politician, Daniel Andrews said “In fact, you’d be surprised at how much can be avoided if people stop insisting on their personal freedoms. Because insisting on human rights is not only selfish, it’s stupid.”",Refuted,Refuted
+332,"Kim Martin Morrow the CEO of Netflix has just been charged with 15 charges for child pornography and 31,000 files have been found on his personal computers for child porn from ages 8 and as young as toddlers.",Refuted,Refuted
+333,"Development Control Department of the Abuja Metropolitan Management Council (AMMC), an agency of the Federal Capital Territory Administration (FCTA)of Nigeria, in 2020 marked 37 Estates for demolition.",Refuted,Refuted
+334,The US government has plans to force a COVID-19 vaccine on everyone.,Refuted,Refuted
+335,"In India, actor Kangana Ranaut was forced to vote for the Shiv Sena in the elections as they were in alliance with the Bharatiya Janata Party (BJP).",Refuted,Refuted
+336,A US voter can vote 4 times because he got 4 vote by mail forms.,Refuted,Refuted
+337,Crime has increased in Minneapolis in 2020.,"<question>
+How did crime rates in Minneapolis change in 2020?
+<answer>
+Crime rates in Minneapolis have increased in 2020.
+
+label:",Supported
+338,"A Democratic Vice Presidential nominee, Kamala Harris, said that there will be ""a federal tax on your home for slavery reparations.""",Refuted,Refuted
+339,Actor Mukesh Khanna has called for a boycott of Jaya and Amitabh Bachchan.,Refuted,Refuted
+340,"A 6 year old boy begged God to save his mother's life after she was ambushed. Today the NFL honored the organization that yelled ""hope they die"" outside the mothers hospital.",Refuted,Refuted
+341,Muslim regiment of the Indian Army had refused to fight in India’s 1965 war with Pakistan.,Refuted,Refuted
+342,Fact Check: AARP Did NOT Spend 'Millions In TV Ads Targeting Republican Candidates' -- Nonprofit AARP Is Prohibited From Involvement In Any Political Campaigns,Supported,Supported
+343,McDonald’s take down American flags at their fast-food restaurants in support of Black Lives Matter and antifa (an umbrella term for far-left anti-fascism groups).,Refuted,Refuted
+344,A Rafale Aircraft crashed during training and two pilots are dead.,Refuted,Refuted
+345,"The Indian UPSC examination is discriminatory in favour of Muslim candidates.(Sudarshan News Editor-in-Chief, Suresh Chavhanke, 11 September, 2020, UPSC Jihad Par Ab Tak Ka Sabse Bada Khulasa (The Biggest Expose of All Time on UPSC Jihad)",Refuted,Refuted
+346,"US state of Georgia has “almost 100,000 more COVID-19 cases, almost twice as many deaths and almost 600 more nursing home deaths than North Carolina, US.",Refuted,Supported
+347,"Tourism, lockdown key to deep New Zealand recession.","<question>
+What was the impact of lockdown on the New Zealand economy
+<answer>
+The initial impact was felt primarily in China but has quickly spread to most countries and regions in the world and is widely recognised as a shock greater than the worlds major economies have announced to various degrees lockdowns to contain the virus economic activity has fallen precipitously the global shock is evident in financial markets equity prices have fallen...
+
+label:",Supported
+348,Wildfires do not Affect Mexico And Canada,Refuted,Refuted
+349,Former FBI Director James Comey and former CIA Director John Brennan have been charged with multiple counts of treason.,Refuted,Refuted
+350,The rate of abortions under Democratic presidential administrations has actually fallen more precipitously.,"<question>
+How many abortions are there per 1000 women?
+<answer>
+the number of abortions per 1000 women between the ages of 15 and 44
+
+<question>
+How many abortions were there under the democrats?
+<answer>
+the number of abortions per 1000 women between the ages of 15 and 44
+
+<question>
+How many abortions were there under the republicans?
+<answer>
+the number of abortions per 1000 women between the ages of 15 and 44
+
+<question>
+How many abortions were there under the democrats?
+<answer>
+the number of abortions per 1000 women between the ages of 15 and 44
+
+<question>
+How many",Conflicting Evidence/Cherrypicking
+351,"Donald Trump tweeted that he was donating $500,000 each toward the expenses of the two Los Angeles County sheriff's deputies who were shot and critically injured on September 12, 2020.",Refuted,Refuted
+352,Iran has stockpiled 10 times as much enriched uranium as it had in 2016.,Refuted,Supported
+353,The UK public won’t be able to claim compensation if unlicensed vaccines damage our health.,"<claim>
+The UK government has announced that if people die from COVID-19 they will not be eligible for the £130,000 compensation.
+
+<question>
+Is the claim that the UK government has announced that if people die from COVID-19 they will not be eligible for the £130,000 compensation supported?
+<answer>
+No
+
+<question>
+Is the claim that the UK government has announced that if people die from COVID-19 they will not be eligible for the £130,000 compensation supported?
+<answer>
+No
+
+<question>
+Is the claim that the UK government has announced that if people die from COVID-19 they will not be eligible for the £130,000 compensation supported?
+<answer>
+No",Conflicting Evidence/Cherrypicking
+354,"unemployment rate in the state of Edo, Nigeria reduced from 25% to 19% during Godwin Obaseki's tenure.",Supported,Not Enough Evidence
+355,"Ignat Shchetinin And Sammy Scott Piatt, charged with arson connected to Clackamas County, Oregon wildfires.",Refuted,Refuted
+356,Nigerian Government had placed a ban on alcohol in sachet and polythene.,Supported,Refuted
+357,Edo State in Nigeria has a 19% unemployment rate.,"<question>
+What is the unemployment rate in Edo State in Nigeria?
+<answer>
+The unemployment rate in Edo State in Nigeria is 19%.
+
+<question>
+What is the unemployment rate in Edo State in Nigeria?
+<answer>
+The unemployment rate in Edo State in Nigeria is 19%.
+
+<question>
+What is the unemployment rate in Edo State in Nigeria?
+<answer>
+The unemployment rate in Edo State in Nigeria is 19%.
+
+<question>
+What is the unemployment rate in Edo State in Nigeria?
+<answer>
+The unemployment rate in Edo State in Nigeria is 19%.
+
+<question>
+What is the unemployment rate in Edo State in Nigeria?
+<answer>
+The unemployment rate in",Supported
+358,Antifa is recruiting people to dress as President Trump supporters and police to riot on Election Day 2020 in the United States,Refuted,Refuted
+359,"Netflix tweets that its content is ""mostly pedophilia-free"" in response to criticism over its streaming of ""Cuties""",Refuted,Refuted
+360,"These unlicensed vaccines will be administered by non-medical staff, such as your employer in the UK.",Supported,Conflicting Evidence/Cherrypicking
+361,"Joe Biden’s own chief of staff said that when Biden managed swine flu in 2009, they quote, “Did every possible thing wrong.”",Supported,Supported
+362,Netflix CEO Reed Hastings was arrested by the FBI on child porn charges.,Supported,Refuted
+363,Antifa Admit to Igniting Fires All Over The Country To Draw Attention To Climate Change,Refuted,Refuted
+364,"Netflix CEO Reed Hastings was arrested by the FBI after being caught with 13,000 files of child pornography.",Refuted,Refuted
+365,"The eligibility criteria for applying to take the exam for the Union Public Service Commission (UPSC) of India, differentiates depending on whether you are a Hindu or a Muslim.",Refuted,Refuted
+366,Biden called law enforcement the enemy.,Refuted,Conflicting Evidence/Cherrypicking
+367,Muslim candidates are allowed more attempts at the UPCS (i.e. Union Public Service Commission for recruitment to higher Civil Services of the Government of India) exam than others,Refuted,Refuted
+368,Muslim candidates can qualify with lower marks than others in the UPCS (i.e. Union Public Service Commission for recruitment to higher Civil Services of the Government of India) exam,Refuted,Refuted
+369,CDC announces that ordinary (non-N95) masks (which most people are wearing) will do nothing to protect you against wildfire smoke because they do not catch small particles,Supported,Supported
+370,Government of India has imposed taxes on all school books,Supported,Conflicting Evidence/Cherrypicking
+371,The upper age-limit for Muslim candidates for the UPCS (i.e. Union Public Service Commission for recruitment to higher Civil Services of the Government of India) exam is relaxed to be higher than that of other applicants,Refuted,Refuted
+372,Greater number of Muslim aspirants are suddenly taking the UPCS (i.e. Union Public Service Commission for recruitment to higher Civil Services of the Government of India) exam,Refuted,Refuted
+373,"the Indian Government set up 5 coaching centres for UPSC exams, 4 of which were in Muslim universities.",Refuted,Refuted
+374,Police: Political Activists Didn’t Cause Oregon’s Wildfires,Supported,Supported
+375,"Nigeria was the third most terrorised in the world in 2020, after Afghanistan and Iraq.",Supported,Not Enough Evidence
+376,Clinical trials of a vaccine against COVID-19 were paused,"<question>
+When did the clinical trials of the Oxford COVID-19 vaccine pause?
+<answer>
+Clinical trials of the Oxford COVID-19 vaccine were paused in the United Kingdom on December 9, 2020, due to a serious adverse event.
+
+<question>
+What happened to the clinical trials of the Astrazeneca vaccine for COVID-19?
+<answer>
+The trials were paused on March 23, 2020, after one of the trials in Brazil experienced an unexplained illness in large trials illnesses will happen by chance but must be independently reviewed to check this carefully astrazeneca announcing a pause in its covid19 vaccine trial first theres nothing unusual about this development they happen routinely in clinical trials and arent unexpected when",Supported
+377,Western Wildfires Are evidence Of A Coordinated Antifa Campaign To 'Burn The Country Down,"<claim>
+Western Wildfires Are evidence Of A Coordinated Antifa Campaign To 'Burn The Country Down
+
+<question>
+What is the origin of the wildfires in the United States?
+<answer>
+The origin of the wildfires in the United States is not attributed to antifa or the Proud Boys. A combination of drought, historic heat, lightning storms, and heavy winds are thought to have contributed to more than 90 wildfires that have burned thousands of square miles across the West Coast.
+
+<question>
+Did Antifa have anything to do with the Wildfires in Oregon and Washington?
+<answer>
+No, officials douse rumors of far-right Proud Boys far-left Antifa setting fires in Oregon, Seattle, ap raging wildfires in the",Refuted
+378,Kasab was fed biriyani.,Supported,Refuted
+379,US Congress voted 49-46 to add the repeal of Section 230 — legislation which shields online platforms from liability for user-generated content — into the country’s annual defense bill in December 2020,Refuted,Refuted
+380,"Democratic presidential nominee Joe Biden talk about how the Chevrolet Corvette is ""one of the best cars in the world"" while he was visiting a Ford plant.",Refuted,Refuted
+381,Nita Ambani is to give Rs 200 crore for Kangana Ranaut’s new studio,Refuted,Refuted
+382,US Democratic Vice Presidential nominee Kamala Harris tweeted that she ‘filed a complaint’ to remove a specific Instagram account.,Refuted,Refuted
+383,Asha Ranaut tweeted ‘you havent crushed my daughter’s office but Bal Thackeray’s soul.,Refuted,Refuted
+384,Brazil preserves its native forests better than any other country in the world,Supported,Refuted
+385,"$400,000 ... is more money than I’ve ever made” in a year",Refuted,Refuted
+386,The CDC has removed the “Covid-19 Pandemic” and replaced it with “Covid-19 Outbreak” on their website.,"<question>
+Is the CDC still referring to the COVID-19 outbreak as a pandemic?
+<answer>
+The term ""pandemic"" is used to describe the widespread outbreak of disease across multiple countries or regions. In the case of COVID-19, it is not considered a pandemic.
+<question>
+When was the ""Covid-19 Pandemic"" label changed to ""Covid-19 Outbreak"" on the CDC website?
+<answer>
+The label was changed from ""Covid-19 Pandemic"" to ""Covid-19 Outbreak"" on the CDC website on June 15, 2020.
+<question>
+What is the CDC's official name for the coronavirus outbreak in the US?
+<answer",Refuted
+387,In England only 69.4% of COVID-19 contacts are now reached and asked to self-isolate.,Supported,Supported
+388,"Rhea Chakrabortys father Indrajit Chakraborty said ‘I Should Die, No Father Can Bear Injustice On His Daughter’.",Refuted,Refuted
+389,The cardinal and unforgivable sin of a French magazine Charlie Hebdo in insulting the holy face of the Prophet once again revealed the hatred and hostility of the political and cultural institutions of the Western world against Islam and the Muslim community.,Refuted,Conflicting Evidence/Cherrypicking
+390,"The NFL, NBA and MLB have Tax-Exempt status.",Refuted,Refuted
+391,"Schools have resumed in New Brunswick, Canada despite the COVID-19 pandemic",Supported,Supported
+392,The sky has turned orange to blood red in several parts of the United States.,Supported,Supported
+393,80 million ballots for the US November 3 2020 election will be mailed to US voters who didn’t request them.,Refuted,Refuted
+394,"Under Trump's watch, auto assembly plants have been added at an unprecedented rate in Michigan, Ohio, North Carolina, South Carolina and possibly other states.",Supported,Not Enough Evidence
+395,"PGA star Bubba Watson wrote a post that says, ""I see signs all over saying black lives matter. I’m just trying to figure out which black lives matter.”",Refuted,Refuted
+396,Photo of three officers at the Indian Police Service who belong to the same family.,Supported,Refuted
+397,Wearing a face mask can cause pleurisy.,Refuted,Refuted
+398,The Indian government has launched an online health consultation scheme.,"<question>
+What is the name of the online health consultation scheme launched by the Indian government?
+<answer>
+The National Telemedicine Programme
+<question>
+What is the name of the health insurance scheme launched by the Indian government?
+<answer>
+The government of India has launched the Pradhan Mantri Jan Arogya Yojana (PMJAY), a flagship scheme of the Government of India to achieve the vision of Universal Health Coverage (UHC) as enshrined in the National Health Policy 2017.
+
+<question>
+Is there a health insurance scheme in India?
+<answer>
+Yes
+
+<question>
+What is the name of the online health consultation scheme launched by the Indian government?
+<answer>",Supported
+399,The Daily Trust news report about a UK judge ruling on how Nigerian Vice President Yemi Osinbajo detected the Process and Industrious Development Limited (P&ID) fraud against Nigeria is fake news.,Supported,Refuted
+400,Math Mistake Caused U.S. Leaders To Panic And Order COVID Lockdowns,Refuted,Refuted
+401,Video of a man blowing vape smoke through various face masks shows that they do not help prevent the spread of coronavirus.,Refuted,Refuted
+402,Spraying of Naira notes is an offence punishable by imprisonment in Nigeria.,Supported,Supported
+403,53 Johannes Ramokhoase street Pretoria is a human trafficking hotspot.,Supported,Refuted
+404,"Indian Railways has been completely privatized, and as a result, scores of people working in the Railways would lose their jobs.",Refuted,Conflicting Evidence/Cherrypicking
+405,Tweet shows Maharashtra Navnirman Sena (MNS) president Raj Thackeray showing their support of Bollywood actress Kangana Ranaut.,Supported,Refuted
+406,"Willie Obiano, the Governor of Anambra State in Nigeria, procured over 100 SUVs as gifts for Anambra state traditional monarchs.",Refuted,Supported
+407,Donald Trump tweeted “THE NEXT 30 TO 60 DAYS WILL BE THE BIGGEST DRAINING OF THE SWAMP EVER”,Supported,Refuted
+408,Mark Zuckerberg Banned Richard Jewells Defence from raising money on Facebook.,Refuted,Refuted
+409,Taiwan Shot down a Chinese SU-35 Jet.,Refuted,Refuted
+410,"Maharashtra Navnirman Sena (MNS) chief Raj Thackeray has come forward in support of Bollywood actress Kangana Ranaut and would welcome her back to Mumbai, India.",Supported,Refuted
+411,Mark Zuckerberg and Facebook declared Richard Jewell to be a Mass Murderer in 1996,Refuted,Refuted
+412,Taiwan claimed to have brought down a Chinese Air Force Su-35 that allegedly violated its airspace over Taiwan Strait.,Refuted,Refuted
+413,"Over the past 40 years, the Uyghur population in Xinjiang, in China, grew from 5.55 million to 12 million.",Supported,Not Enough Evidence
+414,"Between 2010 and 2018, the Uighur population had the region’s highest birthrate, at about 12 newborns per 1,000 people in Xinjiang, China.",Supported,Refuted
+415,"Raj Thackeray tweeted ""On 9 September, Hindu lioness Kangana Ranaut will be given a grand welcome in Maharashtra’s capital, Mumbai.""",Supported,Refuted
+416,"US President Donald Trump plans to cut social security, resulting in social security becoming permanently depleted by the middle of calendar year 2023.",Refuted,Refuted
+417,"450,000 people attended the Sturgis Motorcycle Rally in South Dakota, and there were only 88 positive Covid-19 tests, so a .02% infection rate.",Supported,Refuted
+418,People are trying to lower the legal age of consent to four years old in the U.S.,Refuted,Refuted
+419,"The U.S. Centers for Disease Control and Prevention fraudulently add deaths from poisoning, trauma, and unintentional injury to their tally of COVID-19 deaths.",Refuted,Refuted
+420,"Sturgis Motorcycle Rally resulted in no more positive Covid results than the rest of the state, South Dakota, average stating 88 positive tests to Sturgis Rally, 0.02% infection rate of attendees.",Refuted,Refuted
+421,The CDC recommended wearing only certain beard styles to help prevent the spread of coronoavirus.,Refuted,Refuted
+422,Viral message claims that all Haldiram’s food products were banned in USA,Refuted,Refuted
+423,Sen. Martha McSally “supported a plan to turn Medicare into a voucher program and ‘shift costs’ onto seniors” and “even supported raising the retirement age.,Supported,Conflicting Evidence/Cherrypicking
+424,Voters in North Carolina can send their Mail-in vote and then go to the polling place to vote again to check that their mail-in vote has been counted.,Refuted,Refuted
+425,Fox News is unavailable in Canada because the Radio Act makes it a crime to lie to the public via airwaves.,Refuted,Refuted
+426,"""Jihadists"" attacked a Temple in West Bengal and charred the Hindu deity Kali",Refuted,Refuted
+427,U.S. citizens should show up at polling places on Election Day and cast an in-person ballot if poll workers can’t confirm that their mail-in ballot was received.,Refuted,Conflicting Evidence/Cherrypicking
+428,More cops have died from COVID this year than have been killed on patrol.,Refuted,Not Enough Evidence
+429,A Pakistani website was hacked by an Indian cyber group to wish Pawan Kalyan a Happy Birthday.,Refuted,Supported
+430,"US President Trump opened a complaint platform to report censorship on Facebook, Twitter and YouTube.",Refuted,Supported
+431,"US President Trump issued an executive order for the White House to take over all electrical grids, which will include internet servers, broadcasting systems and electronic systems",Refuted,Refuted
+432,"US President Trump canceled the Democrats’ HR6666 bill, known as the COVID-19 TRACE Act.",Refuted,Refuted
+433,US President Trump canceled Bill Gates’ project known as ID2020,Supported,Refuted
+434,US President Trump issued an executive order to reopen states in lockdown during COVID-19 pandemic; governors who refuse will be sued,Refuted,Refuted
+435,Igbo people In Nigeria (Igbo people are found in southeastern Nigeria) are the richest people per capita in Africa.,Supported,Not Enough Evidence
+436,The US military will check purity and distribute COVID-19 vaccines in US.,Refuted,Refuted
+437,"A 21 year old can have sex with an 11-year-old, and not be listed on the sex registry as a sex offender",Refuted,Refuted
+438,"In Massachusetts, ""anybody can go vote for anybody so long as they have their information. … They're not even checking IDs at the polling stations.""",Refuted,Refuted
+439,Economic damage caused by the pandemic shows United States GDP (gross domestic product) falling by 33 percent compared to India's 23.9 percent drop.,Refuted,Refuted
+440,"In Belfast, the digital sector employs 26 per cent of the workforce.",Refuted,Refuted
+441,Hooligans from the Muslim community were behind the desecration of Goddess Kali Idol in a Bengal Temple in West Bengal's Murshidabad district by burning it.,Refuted,Refuted
+442,Bill Gates was involved in crafting the TRACE Act.,Refuted,Refuted
+443,It's NOT a SECOND WAVE of COVID-19 coming soon. It's the NORMAL COLD / FLU SEASON,Refuted,Refuted
+444,The World Health Organization (WHO) says there is no proof that face masks protect against Covid-19.,Refuted,Refuted
+445,Masks lower immune systems.,Refuted,Refuted
+446,"US President Trump made vaccines voluntary, not mandatory, in the US.",Supported,Refuted
+447,A virus can easily pass through a mask.,Supported,Refuted
+448,"Kyle Rittenhouse failed to appear at his court hearing in Lake County, Illinois, on 28th August 2020 and was given an extra month to comply.",Refuted,Conflicting Evidence/Cherrypicking
+449,Some US mayors are fining people for going to church during the COVID-19 pandemic.,Refuted,Supported
+450,US President Trump declared places of worship as essential services during COVID-19 pandemic.,Refuted,Supported
+451,PEDOPHILIA is now LEGAL in CALIFORNIA,Refuted,Refuted
+452,"Republican Maine Sen. Susan Collins said of President Donald Trump, “Yes, I said that I wouldn’t endorse him but that doesn’t mean I don’t fully support him.”",Refuted,Refuted
+453,US President Trump instructed his administration to halt funding of the World Health Organization while a review was conducted to assess the World Health Organization’s role regarding the spread of coronavirus.,Refuted,Supported
+454,Face masks cause hypoxia.,Refuted,Conflicting Evidence/Cherrypicking
+455,US Cable news channel Fox News is unavailable in Canada due to media legislation.,Supported,Refuted
+456,idol of goddess Kali was burnt in West bengals Murshidabad by the muslim community.,Supported,Refuted
+457,The Radio Act in Canada makes it a crime to lie to the public via airwaves.,Refuted,Conflicting Evidence/Cherrypicking
+458,The South African Police Service kills three times more people per capita than the United States police force,Supported,Not Enough Evidence
+459,"In 2018, South African police service officers were accused of 217 cases of torture and 3,661 cases of assault.",Supported,Supported
+460,"Since 2002, South Africa’s police force has grown by 50%.",Supported,Refuted
+461,All India Institute of Medical Sciences Nursing Officer Recruitment Common Eligibility Test 2020 was postponed.,Refuted,Supported
+462,US cable news channel Fox News is not available in Canada due to media legislation in the country.,Refuted,Refuted
+463,"558 people were killed by the police in 2018, while 201 people died in police custody",Refuted,Supported
+464,The number of North American bison has been reduced to only twenty-seven individuals due to colonizers.,Refuted,Refuted
+465,Jacob Blake raped a 14 year old teenage girl.,Refuted,Refuted
+466,Amber Alert Issued For License Plate Q72B381,"<question>
+What is an Amber Alert?
+<answer>
+An Amber Alert is a public warning system that is used to quickly disseminate information about an abduction of a missing child. The alert is issued by law enforcement agencies and is usually issued in conjunction with the National Center for Missing and Exploited Children (NCMEC). The alert is named after Amber Hagerman, a 9-year-old girl who was abducted in Texas in 1996.
+
+<question>
+Is the Amber Alert system able to send alerts via license plate readers?
+<answer>
+Yes
+
+<question>
+What is an Amber Alert?
+<answer>
+An Amber Alert is a high-priority alert issued by law enforcement agencies to quickly disseminate information about",Refuted
+467,"Suresh Raina, the Chennai Super Kings (CSK) cricketer, has withdrawn from the upcoming 2020 edition of the IPL after testing positive for COVID-19.",Refuted,Refuted
+468,"Even with a voter ID card, you won’t be allowed to vote in Ghana on December 7 if your name is not found in the Register. So, people should take advantage of the exhibition exercise to verify their names.",Refuted,Supported
+469,"A crowdfunding campaign on the Christian site GiveSendGo solicited donations to help Kyle Rittenhouse, a 17-year-old accused of killing two people at a protest in Kenosha, Wisconsin.",Refuted,Supported
+470,Islamic study is a subject in UPSC exam,Supported,Refuted
+471,The Trump RNC Acceptance Speech Was The First Time The White House Was Used For 'Purely Political Campaign Event',Supported,Refuted
+472,"Donald trump said ""We have already built 300 miles of border wall.""",Supported,Refuted
+473,"Donald Trump says Biden ""is even talking about taking the wall down.""",Refuted,Refuted
+474,"George Floyd died of drug overdose, not US police brutality",Supported,Refuted
+475,"Donald Trump said: Biden ""has pledged a $4 trillion tax hike on almost all American families.""",Supported,Refuted
+476,"Biden has promised to abolish the production of American oil, coal, shale, and natural gas.",Refuted,Refuted
+477,"Joe Biden had not condemned the violence and looting during protests in Kenosha, Wisconsin by 27th August 2020",Supported,Refuted
+478,Duterte has signed order to open nuclear power plant.,Refuted,Refuted
+479,"Donald Trump said ""When the anarchists started ripping down our statues and monuments, right outside, I signed an order immediately, 10 years in prison.""",Supported,Conflicting Evidence/Cherrypicking
+480,"Donald Trump said: ""Biden also vowed to oppose school choice and close down charter schools, ripping away the ladder of opportunity for Black and Hispanic children.""",Refuted,Conflicting Evidence/Cherrypicking
+481,"Donald Trump said: ""When asked if he supports cutting police funding, Joe Biden replied, ‘Yes, absolutely.’""",Refuted,Refuted
+482,"Donald trump said: ""Joe Biden recently raised his hand on the debate stage and promised he was going to give it away, your health care dollars to illegal immigrants, which is going to bring massive number of immigrants into our country.""",Refuted,Conflicting Evidence/Cherrypicking
+483,"Donald Trump said ""We have spent nearly $2.5 trillion on completely rebuilding our military, which was very badly depleted when I took office.""",Supported,Not Enough Evidence
+484,The Edo State government of Nigeria receives 600 million naira monthly as a security vote.,Refuted,Refuted
+485,"Donald Trump said ""Last month, I took on Big Pharma. You think that is easy? I signed orders that would massively lower the cost of your prescription drugs.""",Refuted,Supported
+486,President Trump marshalled the full resources of our federal government to deal with the coronavirus from the outset. He directed the US to forge a seamless partnership with governors across America in both political parties.,Supported,Refuted
+487,"Kyle Rittenhouse, shooter in the Kenosha shootings, was a white supremacist.",Refuted,Refuted
+488,Mobs torched our cities while popular members of Congress promote the same socialism my father fought against in World War II.,Supported,Refuted
+489,Kenosha police allowed Kyle Rittenhouse to walk away after he killed two protesters and injured a third with an AR-15-style rifle.,Supported,Supported
+490,EU Trade Commissioner resigned after being accused of violating COVID-19 health rules in Ireland,Refuted,Supported
+491,Joe Biden wants to end school choice.,Supported,Refuted
+492,"Where President Donald Trump achieved energy independence for the United States, Joe Biden would abolish fossil fuels and end fracking.",Refuted,Refuted
+493,"Before the first case of the coronavirus spread within the United States, the president Donald Trump took unprecedented action and suspended all travel from China.",Supported,Refuted
+494,The Obama-Biden administration secretly launched a surveillance operation on the Trump campaign.,Supported,Refuted
+495,"This Democratic Party of Joe Biden is pushing the so-called Green New Deal. If given power, they would essentially ban animal agriculture and eliminate gas-powered cars.",Refuted,Refuted
+496,"Joe Biden is for open borders, sanctuary cities, free lawyers and health care for illegal immigrants.",Refuted,Conflicting Evidence/Cherrypicking
+497,Nancy Pelosi says that China would prefer Joe Biden.,Refuted,Supported
+498,"As we speak the US are developing a growing number of treatments, including convalescent plasma, that are saving lives all across the country.",Refuted,Not Enough Evidence
+499,The first night of the US Republican National Convention had 128.4 million viewers,Supported,Refuted
