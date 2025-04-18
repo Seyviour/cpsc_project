@@ -22,6 +22,10 @@ import string
 import Levenshtein
 
 
+MAX_NUM_DOCS_PER_CLAIM = 100
+MAX_NUM_TASKS = -1
+MAX_NUM_REPHRASALS=2
+
 # Load FastText embeddings
 model_path = "cc.en.64.bin"
 if os.path.exists(model_path):
@@ -277,14 +281,12 @@ def word_optimal_matching(query_words, text_words):
     
     return total_score, lev_score#, lev_score, match_width
 
-def find_top_n_matches(query_text, target_text, patch_size=50, overlap=25, top_n=5, ret_string=False):
+def find_top_n_matches(query_text_options, target_text, patch_size=50, overlap=25, top_n=5, ret_string=False):
     """Find the top N scoring spans in the target text using a sliding window without redundant embeddings."""
     # q_words = target_words.split()
     t_words = re.sub(r'[^\w\s]', '', target_text.lower())
     target_words = t_words = word_tokenize(t_words)
-    query_words = [get_stem(word) for word in filter_stopwords(query_text)]
-    # target_words = [word for word in target_text.split()]
-    # query_words = [word for word in query_text.split()][:500]
+    query_words_options = [[get_stem(word) for word in filter_stopwords(option)] for option in query_text_options]
     low_lev_scores = []
     mid_lev_scores = []
     high_lev_scores = []
@@ -292,8 +294,9 @@ def find_top_n_matches(query_text, target_text, patch_size=50, overlap=25, top_n
     for start in range(0, max(1, len(target_words) - patch_size + 1), patch_size - overlap):
         end = start + patch_size
         curr_target_words = [get_stem(word) for word in target_words[start:end] if word not in NLTK_STOPWORDS]
-        score, lev_score = word_optimal_matching(query_words, curr_target_words)
-        
+        matchings = [word_optimal_matching(option, curr_target_words) for option in query_words_options]
+        # print(matchings)
+        score, lev_score = max(matchings, key = lambda x: x[0])
         curr_target_text = " ".join(target_words[start:end])
         if ret_string:
             ret_info = curr_target_text
@@ -313,11 +316,13 @@ def find_top_n_matches(query_text, target_text, patch_size=50, overlap=25, top_n
             if len(high_lev_scores) > top_n:
                 heapq.heappop(high_lev_scores)
 
-    return {
+    ret_docs = {
         "low_lev_scores": sorted(low_lev_scores, reverse=True),
         "mid_lev_scores": sorted(mid_lev_scores, reverse=True),
         "high_lev_scores": sorted(high_lev_scores, reverse=True),
     }
+    # print (ret_docs)
+    return ret_docs
 
 # %%
 dev_tasks = None
@@ -342,29 +347,29 @@ def get_span_text_from_claim_doc(claim_doc, span):
     return " ".join(claim_text[span[0]: span[1]])
 
 # %%
-def filter_claim_doc(claim, claim_doc_dict, patch_size):
+def filter_claim_doc(claim_options, claim_doc_dict, patch_size):
     if not isinstance(claim_doc_dict, dict):
         print("ERROR", claim_doc_dict)
         return {}
     claim_text = " ".join(claim_doc_dict.get("url2text"))
-    # doc_url = claim_doc_dict.get("url")
-    top_matches = find_top_n_matches(claim, claim_text, patch_size=patch_size, overlap=0, ret_string=True, top_n=2)
+    top_matches = find_top_n_matches(claim_options, claim_text, patch_size=patch_size, overlap=0, ret_string=True, top_n=2)
     claim_doc_dict["top_n"] = top_matches
     claim_doc_dict["url2text"] = ""
-    # for i, match in enumerate(top_matches):
-    #     claim_doc_dict["most_rel"].append(match)
     return claim_doc_dict 
 
 # %%
-def process_claim(claim_list, claim_id, div="train"):
+def process_claim(claim_list, claim_id, div="train", claim_rephrasals=None):
     claim_id = claim_id
     claim = get_claim_by_id(claim_list, claim_id)
     claim_text = claim.get("claim", "")
     print("CLAIM:", claim_text)
     patch_size = 64
     claim_docs = get_knowledge_store_for_claim(claim_id, div=div)
+    claim_options = [claim_text]
+    if claim_rephrasals and isinstance(claim_rephrasals, list):
+        claim_options = [claim_text, *claim_rephrasals]
     claim_docs = [
-        filter_claim_doc(claim_text, doc, patch_size) for doc in claim_docs[:100]
+        filter_claim_doc(claim_options, doc, patch_size) for doc in claim_docs[:MAX_NUM_DOCS_PER_CLAIM]
     ]
     return claim_docs
 
@@ -378,7 +383,7 @@ print(f"misses: {__misses}, {(__misses/(__hits+__misses+1)):.2f}%")
 target_text = "This is a robust graph matching algorithm for string search. We apply it to find patterns in text efficiently."
 query_text = "graph matching algorithm in bipartite graphs"
 
-top_matches = find_top_n_matches(query_text, target_text, ret_string=True)
+top_matches = find_top_n_matches([query_text], target_text, ret_string=True)
 print(top_matches)
 for group, deets in top_matches.items():
     if not deets:
@@ -388,99 +393,6 @@ for group, deets in top_matches.items():
         score, info = deet
         print(f"Match score: {score}, Span: {info}")
 
-# %%
-# from docx import Document
-
-# def read_docx(file_path):
-#     """
-#     Reads the content of a .docx file.
-
-#     Args:
-#         file_path (str): Path to the .docx file.
-
-#     Returns:
-#         str: The content of the .docx file as a single string.
-#     """
-#     doc = Document(file_path)
-#     content = []
-#     for paragraph in doc.paragraphs:
-#         if paragraph.text.strip(): content.append(paragraph.text)
-#     return '\n'.join(content)
-
-# %%
-
-# Load the all-MiniLM-L6-v2 model
-# minilm_model = SentenceTransformer('all-MiniLM-L6-v2')
-
-# def retrieve_topk_docs(query, documents, top_k=5):
-#     """
-#     Retrieve the top-k documents for a given query using all-MiniLM-L6-v2 embeddings.
-
-#     Args:
-#         query (str): The query string.
-#         documents (list): List of document strings.
-#         top_k (int): Number of top documents to retrieve.
-
-#     Returns:
-#         list: Top-k documents sorted by similarity score.
-#     """
-#     # Compute embeddings for the query and documents
-#     query_embedding = minilm_model.encode(query, convert_to_tensor=True)
-#     doc_embeddings = minilm_model.encode(documents, convert_to_tensor=True)
-
-#     # Compute cosine similarities
-#     similarities = util.cos_sim(query_embedding, doc_embeddings)[0]
-
-#     # Get the top-k documents
-#     top_k_indices = similarities.topk(k=top_k).indices
-#     top_k_docs = [documents[idx] for idx in top_k_indices]
-
-#     return top_k_docs
-
-# def benchmark_retrieval_with_rag(query_texts, documents, matching_function, top_k=5):
-#     """
-#     Benchmarks the matching-based retrieval function against RAG retrieval.
-
-#     Args:
-#         query_texts (list): List of query strings.
-#         documents (list): List of document strings.
-#         matching_function (callable): Matching-based retrieval function.
-#         top_k (int): Number of top results to consider.
-
-#     Returns:
-#         dict: Recall@k and time taken for both methods.
-#     """
-#     results = {"matching": {"recall": [], "time": []}, "rag": {"time": []}}
-
-#     for query in query_texts:
-#         # RAG retrieval
-#         start_time = time.time()
-#         rag_results = retrieve_topk_docs(query, documents, top_k=top_k)
-#         rag_time = time.time() - start_time
-#         results["rag"]["time"].append(rag_time)
-
-#         # Matching-based retrieval
-#         start_time = time.time()
-#         matching_results = matching_function(query, documents, top_k=top_k)
-#         matching_time = time.time() - start_time
-#         results["matching"]["time"].append(matching_time)
-
-#         # Calculate recall@k for matching retrieval
-#         recall = len(set(matching_results).intersection(set(rag_results))) / len(rag_results)
-#         results["matching"]["recall"].append(recall)
-
-#     # Aggregate metrics
-#     metrics = {
-#         "matching": {
-#             "avg_recall@k": sum(results["matching"]["recall"]) / len(results["matching"]["recall"]),
-#             "avg_time": sum(results["matching"]["time"]) / len(results["matching"]["time"]),
-#         },
-#         "rag": {
-#             "avg_time": sum(results["rag"]["time"]) / len(results["rag"]["time"]),
-#         },
-#     }
-
-#     return metrics
 
 # %%
 from multiprocessing import Pool
@@ -494,12 +406,11 @@ def process_claim_wrapper(args):
 # %%
 if __name__=="__main__":
     split = sys.argv[1]
+    split = split.lower().strip()
+
     mod = int(sys.argv[2])
     mine = int(sys.argv[3])
-    
-    claim_docs_filtered = []
-    
-    split = split.lower().strip()
+    use_rephrasals = str(sys.argv[4])
     
     if split == "val":
         tasks = dev_tasks
@@ -512,25 +423,36 @@ if __name__=="__main__":
     
     
     print(f"Processing split: {split}, mod: {mod}, mine: {mine}")
-        
         # Create a directory for the split if it doesn't exist
     os.makedirs(f"results/{split}", exist_ok=True)
+    if use_rephrasals.lower() == 'y':
+        use_rephrasals = True
+        os.makedirs(f"results/{split}/rephrasals", exist_ok=True)
+        
+    if use_rephrasals:
+        try:
+            rephrasal_df = pd.read_json(f"rephrasals/{split}.with_rephrasals.json")
+            rephrasal_dict = dict(zip(rephrasal_df["claim_id"], rephrasal_df["rephrasal_list"]))
+        except Exception as e:
+            print(f"Failed to load rephrasals: {e}")
+            use_rephrasals = False
     
     df = pd.DataFrame()
-    for idx, claim in enumerate(tasks[:]):
+    for idx, claim in enumerate(tasks[:MAX_NUM_TASKS]):
         if idx % mod != mine:
             continue
         try:
             print(f"Processing claim with ID {idx}...")
             _claim_text = claim.get("claim", "")
             _label = claim.get("label", "")
+            print("REPHRASAL", rephrasal_dict.get(idx, []))
             processed_claim = {
-                "filtered_docs": process_claim(tasks, idx, split),
+                "filtered_docs": process_claim(tasks, idx, split, claim_rephrasals=rephrasal_dict.get(idx, [])[:MAX_NUM_REPHRASALS]),
                 "claim_id": idx,
                 "claim": _claim_text,
                 "label": _label
             }
-            claim_docs_filtered.append(processed_claim)
+            # print(processed_claim)
                         
             # Append the new processed claim to the DataFrame
             df = pd.concat([df, pd.DataFrame([processed_claim])], ignore_index=True)
@@ -541,3 +463,5 @@ if __name__=="__main__":
         except Exception as e:
             print(f"Failed to process claim with ID {idx}. Error: {e}")
             continue
+
+# %%
